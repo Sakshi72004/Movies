@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let gamma = ['sakshi','trupti','mehatab'];
+        gamma.push('anuj'); //add last
+        console.log(gamma);
+        gamma.push('aditya'); //add last
+        console.log(gamma);
+        document.write(gamma);
+        gamma.unshift('vrushbh'); //add first
+        console.log(gamma);
+
+        let beta=gamma.pop(); //delete last
+        console.log(beta);
+        gamma.shift(); //delet first
+        console.log(gamma);
+
+        let index=gamma.indexOf('mehatab');// Checking position of element
+        console.log(index);
+
+        var combine=gamma.concat(beta); //combine two array
+        console.log(combine);
+
+        var a=['a','b','c','d','e','f','g','h','i','j'];
+        var b=['k','l','m','n','o','p','q','r','s','t'];
+        var combine=a.concat(b);
+        console.log(combine);
+
+        for (let i = 0; i < combine.length; i++) {
+            document.write(combine[i]+"<br>");
+        }
+
+        var odd=[];
+        var even=[];
+
+        for (let i = 0; i < 11; i++) {
+            if (i%2==0) {
+                even.push(i);
+            } else {
+                odd.push(i);
+            }
+        }
+        for (let i = 0; i < odd.length; i++) {
+            document.write(odd[i]+"<br>");
+        }
+        for (let i = 0; i < even.length; i++) {
+            document.write(even[i]+"<br>");
+        }
+
+        let n=10
+        for(let i=2;i<=10;i++){
+            for(let j=2;j<i;j++){
+                if(i%j==0) break;
+                console.log(i);
+            }
+
+        }
+
+        
+
+    </script>
+</body>
+</html>

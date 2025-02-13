@@ -1,0 +1,266 @@
+nav{
+    float: right;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 600px;
+}
+  ul li{
+    float: right;
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    height: 25px;
+    color: red;
+    border-color: aquamarine;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 17px;
+  }
+h1{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 2px ;
+}
+img{
+    margin: 5px;
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 8px;   
+}
+.img1:hover{
+  transform: scale(1.1);
+  box-shadow: #ec450d;
+}
+ul li:hover{
+  color: green;
+  
+}
+.container {
+  
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: 2px 2px 8px ;
+  margin: 2px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 8px ;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap:10px;
+  padding: 10px;
+  scroll-behavior: smooth;
+  border-radius: 3px; 
+  width: 1480px; 
+   
+}
+
+.container2 {
+  
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: 2px 2px 8px ;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap:10px;
+  padding: 10px;
+  scroll-behavior: smooth;
+  border-radius: 3px; 
+  width: 1480px; 
+}
+.movie{
+  width: 1500px;
+  height: auto;
+}
+.button1{
+background-color: #ec450d;
+  color: rgb(12, 12, 12);
+  box-shadow: 2px 2px 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 40px;
+  margin: 200px;
+ 
+  
+}
+
+button{
+  color: rgb(9, 9, 9);
+  background-color: rgb(208, 197, 197);
+  height: 40px;
+  width: 50px;
+  margin: 5px;
+  justify-content: center;
+  border-radius: 5px;
+  text-align: center;
+  padding: bottom 5px;
+ 
+}
+h2{
+  text-align: left;
+  color: purple;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  font-style: normal;
+  float: left;
+  margin: 10px;
+}
+.button1:hover{
+  background-color: rgb(46, 226, 43);
+  color: white;
+  box-shadow: 2px 2px 8px;
+}
+h3{
+  text-align: center;
+  color: rgb(13, 13, 14);
+}
+.movie1{
+  height: 400px;
+  width: 350px;
+  border-radius:2px ;
+  border: 2px solid black;
+  margin: 5px;
+}
+h2{
+  text-align: center;
+  color: blueviolet;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  float: left;
+  
+}
+
+
+.search-input {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 25px;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 2px 2px 8px;
+}
+
+
+.search-button {
+  background-color: #3498db;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+  width: 90px;
+ 
+}
+
+.search-button:hover {
+  background-color: #2980b9;
+}
+
+.tv-container {
+  margin: 2px;
+  border: 1px solid black;
+  margin: 2px;
+  box-shadow: 2px 2px 8px ;
+  
+}
+.div1{
+  width: 1500px;
+}
+footer {
+  background-color: #ccc3c3;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 7px;
+  min-width: 100px;
+}
+
+.footer-section h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px ;
+}
+
+.footer-section ul li a {
+  color: #100f0f;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #e80c0c;
+}
+
+.social-icons img {
+  width: 40px;
+  margin: 10px;
+  transition: transform 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.footer-bottom a {
+  color: #131212;
+  text-decoration: none;
+  margin: 2px;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+}
+p{
+font-size: 20px;
+color: black;
+}
+
+.img3{
+  height: 40px;
+}
+
+.img4{
+  height: 150px;
+  width: 200px;
+}
+

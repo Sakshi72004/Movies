@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="#follow-us">Follow Us</a></li> 
+                    <li><a href="#contact-us">Contact Us</a></li> 
+                    <li><a href="webseries.html">WebSeries</a></li> 
+                    <li><a href="movies.html">Movies</a></li> 
+                    <li><a href="index.html">Home</a></li>
+ 
+                </ul>
+            </div>
+        </nav>
+        
+        
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-button">Search</button>
+        </div>
+    
+        <marquee behavior="" direction=""><h1> **WELCOME TO Apna Theater**</h1></marquee>
+        <h3>..**Stream Your Favourite Movie Online**..</h3>
+        
+
+        <img src="all movies/movie1.jpg" alt="" class="movie" >
+        <h2> Recommended For You</h2>
+
+        <div class="container">
+            <img src="image21.jpg" alt="" class="img1">
+            <img src="image22.jpg" alt="" class="img1">
+            <img src="image23.jpg" alt="" class="img1">
+            <img src="image25.jpg" alt="" class="img1" >
+            <img src="image26.jpg" alt=""  class="img1">
+            <img src="image27.jpg" alt="" class="img1">
+            <img src="image29.jpg" alt="" class="img1">
+            <img src="image28.jpg" alt="" class="img1">
+            <img src="image34.jpg" alt="" class="img1">
+            <img src="image1-30.jpg" alt="" class="img1">
+        </div>
+        <button onclick="scrollLe()">⬅</button>
+        <button onclick="scrollRi()">➡</button>
+        <br><br>
+            <h2> Trending Web Series</h2>
+        <div class="container2">
+            <img src="image31.jpg" alt="" class="img1">
+            <img src="image32.jpg" alt="" class="img1">
+            
+            <img src="image23Addicted_(web_series_art).jpg" alt="" class="img1">
+            <img src="image33.jpg" alt="" class="img1">
+            <img src="all movies/web15.jpg" alt="" class="img2">
+            <img src="all movies/web16.avif" alt="" class="img2">
+            <img src="all movies/web17.jpeg" alt="" class="img2">
+            <img src="all movies/web18.jpeg" alt="" class="img2">
+            <img src="all movies/web19.avif" alt="" class="img2">
+            <img src="all movies/web20.avif" alt="" class="img2">
+        </div>
+        <br>
+<button onclick="scrollLefti()">⬅</button>
+<button onclick="scrollRighti()">➡</button>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#follow-us">Follow Us</a></li> 
+                        <li><a href="#contact-us">Contact Us</a></li> 
+                        <li><a href="webseries.html">WebSeries</a></li>
+                        <li><a href="movies.html">Movies</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section" id="follow-us">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/Sakshi72004"><img src="all movies/github.png" alt="GitHub" class="img3"></a>
+                        <a href="https://www.linkedin.com/in/SakshiiPawar07/"><img src="all movies/likdin1.png" alt="linkedin" class="img3"></a>
+                        <a href="sakshipawar72004@gmail.com"><img src="all movies/email.svg" alt="Email" class="img3"></a>
+                        
+                    </div>
+                </div>
+        
+                <div class="footer-section" id="contact-us">
+                    <h3>Contact Us</h3>
+                    <p>Email: sakshipawar72004@gmail.com</p>
+                    <p>Phone: +91 9307174929</p>
+                    <p>Address: Pune, India</p>
+                </div>
+        
+                <div class="footer-bottom">
+                    <p>© 2025 Apna Theater. All Rights Reserved.</p>
+                    <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+        
+        
+
+        <script>
+            function scrollLe() {
+            document.querySelector(".container").scrollBy({ left: -200, behavior: "smooth" });
+        }
+    
+        function scrollRi() {
+            document.querySelector(".container").scrollBy({ left: 200, behavior: "smooth" });
+        }
+        function scrollLefti() {
+            document.querySelector(".container2").scrollBy({ left: -200, behavior: "smooth" });
+        }
+    
+        function scrollRighti() {
+            document.querySelector(".container2").scrollBy({ left: 200, behavior: "smooth" });
+        }
+        </script>
+        
+        
+    </header>
+</body>
+</html>
